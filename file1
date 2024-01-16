@@ -11,8 +11,9 @@ int main(){
  cout << "Inserting elements.." <<endl; 
  cout << "Array After Insertion:" << endl; // prints array values 
  for(i = 0; i < 3; i++) { 
- LA[i] = i + 2; 
+ LA[i] = i + 1; 
  cout << "LA[" << i <<"] = " << LA[i] << endl; 
  } 
  return 0; 
 } 
+//array elements:{1,2,3}
